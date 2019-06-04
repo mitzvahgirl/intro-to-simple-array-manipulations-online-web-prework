@@ -17,7 +17,7 @@ end
 
  def pop_with_args(chars_in_game_of_thrones)
   @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
-  @chars_removed = @chars_in_game_of_thrones.pop(2)
+  @chars_removed = @chars_in_game_of_thrones.pop()
 end
 
 def using_shift(my_favorite_cities)
@@ -27,7 +27,7 @@ end
 
 def shift_with_args(ice_cream_brands)
   @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  @brands_removed = @ice_cream_brands.shift(-2)
+  @brands_removed = @ice_cream_brands.shift(2)
 end
 
 def using_concat(my_favorite_things, more_favs)
